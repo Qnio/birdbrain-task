@@ -1,157 +1,175 @@
 body {
-  font-family: "Helvetica Neue";
-  background-color: #0b4e70; }
+	font-family: "Helvetica Neue";
+	background-color: 	#0b4e70;	
+}
 
 .jumbotron {
-  background-color: white;
-  padding-bottom: 0px;
-  margin-bottom: 0px; }
+	background-color: white;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
 
 /* to keep sizing both elements .logo & .rectangle I set relative on .main-content & .logo as well as I set absolut position for
 rectangle element*/
 .main-content {
-  position: relative;
-  background-color: transparent;
-  width: 100%;
-  margin-right: 0px;
-  overflow: hidden; }
+	position: relative;
+	background-color: transparent;	
+	width: 100%;
+	margin-right: 0px;
+	overflow: hidden;
+}
+
 
 .logo {
-  position: relative;
-  width: 60%;
-  right: -52%; }
+	position: relative;
+	width: 60%;
+	right: -52%;	
+}
 
 .rectangle {
-  position: absolute;
-  left: 0;
-  top: 50%; }
+	position: absolute;
+	left: 0;
+	top: 50%;	
+}
 
-.navbar {
-  background-color: white; }
+.navbar{
+ background-color: 	white;	
+}
 
 .navbar-nav {
-  margin-left: auto;
-  margin-right: 18%;
-  margin-top: 70px;
-  background-color: white; }
-  .navbar-nav a {
-    padding-right: 15px !important;
-    padding-left: 15px !important;
-    margin-right: 20px;
-    font-size: 14px;
-    text-align: center;
-    font-weight: 200; }
+	margin-left: auto;
+	margin-right: 18%;;	
+	margin-top: 70px;
+	background-color: white;
+}
+
+.navbar-nav a{
+	padding-right: 15px !important;
+	padding-left: 15px !important;
+	margin-right: 20px;
+	font-size: 14px;
+	text-align: center;
+	font-weight: 200;
+}
 
 .nav-pills .nav-link.active {
-  color: #FFFFFF !important;
-  background-color: #000000;
-  border-radius: 0em; }
+    color: #FFFFFF !important;
+    background-color: #000000;
+	border-radius: 0em;
+}
 
 .main-carousel-heading {
-  letter-spacing: 0.15em;
-  font-size: 28px;
-  font-weight: 200;
-  margin-left: 10%;
-  margin-right: 5px; }
+	letter-spacing: 0.15em;
+	font-size: 28px;
+	font-weight: 200;
+	margin-left: 10%;
+	margin-right: 5px;	
+}
 
 #heading-under-sentence {
-  position: relative;
-  margin-bottom: 0;
-  font-size: 18px;
-  margin-left: 10%;
-  margin-right: 10px;
-  letter-spacing: 0.07em;
-  font-weight: 400;
-  color: gray;
-  padding-top: 10px; }
+	position: relative;
+	margin-bottom: 0;
+	font-size: 18px;
+	margin-left: 10%;
+	margin-right: 10px;
+	letter-spacing: 0.07em;
+	font-weight: 400;
+	color: gray;
+	padding-top: 10px;
+}
 
 #service-add {
-  /*-- cuted bacground in div to pair with logo 
-  position: relative;
-  -webkit-clip-path: polygon(0 0, 100% 32%, 100% 100%, 0% 100%);
-  clip-path: polygon(0 0, 100% 32%, 100% 100%, 0% 100%);
-  margin-top: -20%;
-  padding-top: 200px;
-   /cuted bacground in div to pair with logo --*/
-  margin-top: -10%;
-  text-align: center;
-  max-height: 350px;
-  padding-bottom: 100px; }
+	
+	/*-- cuted bacground in div to pair with logo 
+	position: relative;
+	-webkit-clip-path: polygon(0 0, 100% 32%, 100% 100%, 0% 100%);
+	clip-path: polygon(0 0, 100% 32%, 100% 100%, 0% 100%);
+	margin-top: -20%;
+	padding-top: 200px;
+	 /cuted bacground in div to pair with logo --*/
+	
+	margin-top: -10%;
+	text-align: center;
+	max-height: 350px;
+	padding-bottom: 100px;		
+}
+
 
 #service-add img {
-  position: relative;
-  max-height: 80px;
-  margin: 30px 0; }
+	position: relative;
+	max-height: 80px;
+	margin: 30px 0;	
+}
 
 .service-heading {
-  font-weight: 200;
-  color: white; }
+	font-weight: 200;
+	color: white;	
+}
 
-/*
 .service-describe {
 	margin-top: 0px;
 	text-align: center;	
-	color: $service-font-color;
+	color: white;
 	font-weight: 300;
 }
 
 p ~ a {
 	text-decoration: underline;
 	color: #3f8671;
-}*/
-#service-add p {
-  margin-top: 0px;
-  text-align: center;
-  color: white;
-  font-weight: 300; }
-#service-add a {
-  text-decoration: underline;
-  color: #3f8671; }
-  #service-add a:hover {
-    color: white;
-    transform: scale(1.2); }
+}
 
 .bar-separator {
-  content: "";
-  background-color: #212934;
-  height: 30px; }
+	content: "";
+	background-color: #212934;
+	height: 30px;		
+}
 
-@media (min-width: 505px) {
-  .main-carousel-heading {
-    letter-spacing: 0.15em;
-    font-size: 32px;
-    font-weight: 200;
-    margin-left: 10%; }
+@media (min-width: 505px){
+	.main-carousel-heading {
+		letter-spacing: 0.15em;
+		font-size: 32px;
+		font-weight: 200;
+		margin-left: 10%;
+	}
+	#heading-under-sentence {
+		margin-bottom: 5%;
+	}
+}
 
-  #heading-under-sentence {
-    margin-bottom: 5%; } }
-@media (min-width: 768px) {
-  .main-carousel-heading {
-    letter-spacing: 0.15em;
-    font-size: 30px;
-    font-weight: 200;
-    margin-left: 10%; }
+@media (min-width: 768px){
+	.main-carousel-heading {
+		letter-spacing: 0.15em;
+		font-size: 30px;
+		font-weight: 200;
+		margin-left: 10%;
+	}
+	#heading-under-sentence {
+		margin-bottom: -10%;
+		font-size: 12px;
+	}
+}
 
-  #heading-under-sentence {
-    margin-bottom: -10%;
-    font-size: 12px; } }
-@media (min-width: 990px) {
-  .main-carousel-heading {
-    letter-spacing: 0.15em;
-    font-size: 36px;
-    font-weight: 200;
-    margin-left: 10%; }
+@media (min-width: 990px){
+	.main-carousel-heading {
+		letter-spacing: 0.15em;
+		font-size: 36px;
+		font-weight: 200;
+		margin-left: 10%;
+	}
+	#heading-under-sentence {
+		
+		font-size: 14px;
+	}
+}
 
-  #heading-under-sentence {
-    font-size: 14px; } }
-@media (min-width: 1200px) {
-  .main-carousel-heading {
-    letter-spacing: 0.15em;
-    font-size: 42px;
-    font-weight: 200;
-    margin-left: 10%; }
-
-  #heading-under-sentence {
-    font-size: 16px; } }
-
-/*# sourceMappingURL=style.css.map */
+@media (min-width: 1200px){
+	.main-carousel-heading {
+		letter-spacing: 0.15em;
+		font-size: 42px;
+		font-weight: 200;
+		margin-left: 10%;
+	}
+	#heading-under-sentence {	
+		font-size: 16px;
+	}
+}
